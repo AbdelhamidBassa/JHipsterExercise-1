@@ -17,7 +17,8 @@ entity Order {
     deliveyAdress String required,
     deliveryDateTime ZonedDateTime required,
     quantity Long required,
-    billingMethod BillingMethod required
+    billingMethod BillingMethod required,
+    state Integer required
 }
 
 enum BillingMethod {
